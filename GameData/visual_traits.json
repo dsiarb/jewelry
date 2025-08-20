@@ -1,0 +1,74 @@
+{
+    "form_style": [
+        {
+            "label": "organic",
+            "visual_hint": "Curved, flowing shapes; nature-inspired"
+        },
+        {
+            "label": "symmetrical",
+            "visual_hint": "Balanced on both sides; mirrored elements"
+        },
+        {
+            "label": "geometric",
+            "visual_hint": "Strong angles, circles, triangles, squares"
+        },
+        {
+            "label": "asymmetrical",
+            "visual_hint": "Unbalanced layout, uneven distribution"
+        }
+    ],
+    "design_intent": [
+        {
+            "label": "minimal",
+            "visual_hint": "Small size, clean lines, few or no gems"
+        },
+        {
+            "label": "balanced",
+            "visual_hint": "Moderate size, some decoration, general harmony"
+        },
+        {
+            "label": "striking",
+            "visual_hint": "Medium-to-large presence, bold details, few strong accents"
+        },
+        {
+            "label": "showy",
+            "visual_hint": "Large size, multiple gemstones, heavy ornamentation"
+        }
+    ],
+    "period_style": [
+        {
+            "label": "antique",
+            "visual_hint": "Old-world appearance, often darkened metals or rustic finishes"
+        },
+        {
+            "label": "vintage",
+            "visual_hint": "Retro look, typical of early 1900s to 1980s"
+        },
+        {
+            "label": "modern",
+            "visual_hint": "Clean, up-to-date, often industrial or sleek"
+        },
+        {
+            "label": "trendy",
+            "visual_hint": "Following current fashion, fresh and bold"
+        }
+    ],
+    "material_vibe": [
+        {
+            "label": "earthy",
+            "visual_hint": "Bronze, copper, natural stones, matte finish"
+        },
+        {
+            "label": "refined",
+            "visual_hint": "Gold, silver, polished stones, balanced elegance"
+        },
+        {
+            "label": "luxurious",
+            "visual_hint": "Platinum, white gold, diamonds, radiant polish"
+        },
+        {
+            "label": "experimental",
+            "visual_hint": "Unusual materials, artistic shapes, mixed media"
+        }
+    ]
+}

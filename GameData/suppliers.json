@@ -1,0 +1,82 @@
+{
+  "suppliers": [
+    {
+      "supplier_id": "supplier_furniture_01",
+      "name": "IKEA - Innovative Kraft & Equipment Assembly",
+      "supplier_type": "Furniture",
+      "reputation_required": 0,
+      "inventory": [
+        "item_sales_counter_01",
+        "item_showcase_01",
+        "item_management_desk_01",
+        "item_inventory_safe_01",
+        "decor_minimal_poster_01",
+        "decor_vintage_clock_01",
+        "decor_luxury_chandelier_01"
+      ]
+    },
+    {
+      "supplier_id": "supplier_jewelry_early",
+      "name": "Glimmer & Go Jewelry Wholesalers",
+      "supplier_type": "Jewelry",
+      "reputation_required": 0,
+      "inventory": [
+        "ring_classic_minimal_01",
+        "earrings_simple_stud_01",
+        "bracelet_chain_basic_01"
+      ]
+    },
+    {
+      "supplier_id": "supplier_materials_basic",
+      "name": "Smith & Sons Metalworks",
+      "supplier_type": "Materials",
+      "reputation_required": 50,
+      "inventory": [
+        "mat_silver_01",
+        "mat_copper_01",
+        "mat_gold_01",
+        "mat_whitegold",
+        "mat_chain_01",
+        "mat_alloy_x"
+      ]
+    },
+    {
+      "supplier_id": "supplier_gems_cut_common",
+      "name": "Rockford's Fine Cut Gems",
+      "supplier_type": "Gems_Cut",
+      "reputation_required": 100,
+      "inventory": [
+        "gem_zircon_cut",
+        "gem_aquamarine_cut",
+        "gem_amethyst_cut",
+        "gem_opal_cut"
+      ]
+    },
+    {
+      "supplier_id": "supplier_gems_raw_basic",
+      "name": "Raw Prospectors Co-op",
+      "supplier_type": "Gems_Raw",
+      "reputation_required": 300,
+      "inventory": [
+        "gem_zircon_raw",
+        "gem_aquamarine_raw",
+        "gem_amethyst_raw",
+        "gem_opal_raw"
+      ]
+    },
+    {
+      "supplier_id": "supplier_machines_starter",
+      "name": "Werkstatt Workshop Machinery",
+      "supplier_type": "Machines",
+      "reputation_required": 200,
+      "inventory": [
+        "gem_cutter_basic",
+        "laser_cutter_v1",
+        "nano_polisher",
+        "qc_optical_scanner",
+        "micro_assembly_unit_v1",
+        "micro_assembly_unit_v2"
+      ]
+    }
+  ]
+}

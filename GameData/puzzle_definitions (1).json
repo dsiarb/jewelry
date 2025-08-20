@@ -1,0 +1,291 @@
+[
+  {
+    "id": "gem_cut_precision",
+    "name": "Gem Cutting Precision",
+    "mechanic_type": "timing",
+    "linked_system": "crafting",
+    "difficulty": "easy",
+    "scoring": {
+      "accuracy_weight": 0.7,
+      "speed_weight": 0.3
+    },
+    "version_introduced": "v1.3",
+    "time_cost": 15,
+    "energy_cost": 10,
+    "daily_limit": 3,
+    "auto_mode_available": false,
+    "description": "Cut gems with precise timing to increase gem quality."
+  },
+  {
+    "id": "style_match_tiles",
+    "name": "Style Matching Tiles",
+    "mechanic_type": "pattern_matching",
+    "linked_system": "style_evaluation",
+    "difficulty": "medium",
+    "scoring": {
+      "pattern_accuracy": 0.6,
+      "completion_ratio": 0.4
+    },
+    "version_introduced": "v1.4",
+    "time_cost": 20,
+    "energy_cost": 15,
+    "daily_limit": 3,
+    "auto_mode_available": true,
+    "description": "Match the correct style elements to meet customer design expectations."
+  },
+  {
+    "id": "quality_inspection",
+    "name": "Quality Inspection",
+    "mechanic_type": "spot_the_difference",
+    "linked_system": "quality_control",
+    "difficulty": "medium",
+    "scoring": {
+      "flaw_detection": 0.5,
+      "false_positive_penalty": 0.3,
+      "time_bonus": 0.2
+    },
+    "version_introduced": "v1.5",
+    "time_cost": 12,
+    "energy_cost": 8,
+    "daily_limit": 4,
+    "auto_mode_available": true,
+    "description": "Inspect the final product and spot any visible flaws to maintain quality standards."
+  },
+  {
+    "id": "price_estimation_mini",
+    "name": "Price Estimation",
+    "mechanic_type": "trend_estimation",
+    "linked_system": "pricing",
+    "difficulty": "easy",
+    "scoring": {
+      "price_accuracy": 0.8,
+      "market_awareness": 0.2
+    },
+    "version_introduced": "v1.6",
+    "time_cost": 10,
+    "energy_cost": 5,
+    "daily_limit": 5,
+    "auto_mode_available": true,
+    "description": "Estimate a competitive price based on trends and value perception."
+  },
+  {
+    "id": "emotional_negotiation",
+    "name": "Customer Negotiation",
+    "mechanic_type": "reaction_timing",
+    "linked_system": "customer_interaction",
+    "difficulty": "hard",
+    "scoring": {
+      "timing_accuracy": 0.5,
+      "emotion_detection": 0.5
+    },
+    "version_introduced": "v1.7",
+    "time_cost": 18,
+    "energy_cost": 18,
+    "daily_limit": 2,
+    "auto_mode_available": false,
+    "description": "Negotiate with the customer by responding at the right moment with the right offer."
+  },
+  {
+    "id": "material_refinement",
+    "name": "Material Refinement",
+    "mechanic_type": "rhythm_balance",
+    "linked_system": "material_processing",
+    "difficulty": "medium",
+    "scoring": {
+      "rhythm_accuracy": 0.6,
+      "temperature_balance": 0.4
+    },
+    "version_introduced": "v1.8",
+    "time_cost": 14,
+    "energy_cost": 10,
+    "daily_limit": 3,
+    "auto_mode_available": true,
+    "description": "Balance the temperature and rhythm to refine materials effectively."
+  },
+  {
+    "id": "molten_pour",
+    "name": "Molten Pour",
+    "mechanic_type": "liquid_flow",
+    "linked_system": "production",
+    "difficulty": "medium",
+    "scoring": {
+      "spill_control": 0.5,
+      "fill_accuracy": 0.5
+    },
+    "version_introduced": "v1.8",
+    "time_cost": 12,
+    "energy_cost": 9,
+    "daily_limit": 3,
+    "auto_mode_available": false,
+    "description": "Carefully pour molten metal into molds without spilling or underfilling."
+  },
+  {
+    "id": "cooling_phase",
+    "name": "Cooling Phase",
+    "mechanic_type": "timing_precision",
+    "linked_system": "production",
+    "difficulty": "medium",
+    "scoring": {
+      "cooling_accuracy": 0.7,
+      "timing_penalty": 0.3
+    },
+    "version_introduced": "v1.8",
+    "time_cost": 10,
+    "energy_cost": 8,
+    "daily_limit": 3,
+    "auto_mode_available": true,
+    "description": "Cool the item at the right moment to prevent cracks or imperfections."
+  },
+  {
+    "id": "component_assembly",
+    "name": "Component Assembly",
+    "mechanic_type": "drag_drop_puzzle",
+    "linked_system": "production",
+    "difficulty": "easy",
+    "scoring": {
+      "placement_order": 0.6,
+      "snap_accuracy": 0.4
+    },
+    "version_introduced": "v1.8",
+    "time_cost": 15,
+    "energy_cost": 10,
+    "daily_limit": 4,
+    "auto_mode_available": true,
+    "description": "Assemble parts in the correct order using drag-and-drop actions."
+  },
+  {
+    "id": "precision_welding",
+    "name": "Precision Welding",
+    "mechanic_type": "tremor_control",
+    "linked_system": "production",
+    "difficulty": "hard",
+    "scoring": {
+      "hand_stability": 0.7,
+      "alignment": 0.3
+    },
+    "version_introduced": "v1.8",
+    "time_cost": 18,
+    "energy_cost": 16,
+    "daily_limit": 2,
+    "auto_mode_available": false,
+    "description": "Perform precision welding with a steady hand to ensure perfect joins."
+  },
+  {
+    "id": "polishing_finish",
+    "name": "Polishing Finish",
+    "mechanic_type": "rhythm_control",
+    "linked_system": "production",
+    "difficulty": "easy",
+    "scoring": {
+      "rhythm_streak": 0.8,
+      "shine_level": 0.2
+    },
+    "version_introduced": "v1.8",
+    "time_cost": 12,
+    "energy_cost": 7,
+    "daily_limit": 5,
+    "auto_mode_available": true,
+    "description": "Polish the finished product using timed rhythmic motions to boost appearance."
+  },
+  {
+    "id": "collection_planner",
+    "name": "Collection Planner",
+    "mechanic_type": "logic_grouping",
+    "linked_system": "collection_design",
+    "difficulty": "medium",
+    "scoring": {
+      "style_consistency": 0.6,
+      "balance_bonus": 0.4
+    },
+    "version_introduced": "v1.9",
+    "time_cost": 20,
+    "energy_cost": 12,
+    "daily_limit": 2,
+    "auto_mode_available": false,
+    "description": "Assemble a three-piece collection with logical style and usage balance."
+  },
+  {
+    "id": "ad_design",
+    "name": "Advertisement Design",
+    "mechanic_type": "color_layout_matching",
+    "linked_system": "marketing",
+    "difficulty": "easy",
+    "scoring": {
+      "target_match": 0.7,
+      "layout_quality": 0.3
+    },
+    "version_introduced": "v1.9",
+    "time_cost": 10,
+    "energy_cost": 6,
+    "daily_limit": 3,
+    "auto_mode_available": true,
+    "description": "Design advertisements that appeal to specific customer segments."
+  },
+  {
+    "id": "window_display_setup",
+    "name": "Window Display Setup",
+    "mechanic_type": "grid_puzzle",
+    "linked_system": "storefront",
+    "difficulty": "medium",
+    "scoring": {
+      "visual_balance": 0.5,
+      "product_variety": 0.5
+    },
+    "version_introduced": "v1.9",
+    "time_cost": 14,
+    "energy_cost": 9,
+    "daily_limit": 3,
+    "auto_mode_available": true,
+    "description": "Arrange the shop window display to maximize attractiveness and sales."
+  },
+  {
+    "id": "employee_training",
+    "name": "Employee Training",
+    "mechanic_type": "reflex_test",
+    "linked_system": "human_resources",
+    "difficulty": "easy",
+    "scoring": {
+      "reaction_time": 0.6,
+      "training_score": 0.4
+    },
+    "version_introduced": "v1.9",
+    "time_cost": 12,
+    "energy_cost": 10,
+    "daily_limit": 2,
+    "auto_mode_available": true,
+    "description": "Train staff through basic reflex challenges to improve efficiency."
+  },
+  {
+    "id": "story_decision_event",
+    "name": "Story Event Decision",
+    "mechanic_type": "ethical_choice",
+    "linked_system": "event_narrative",
+    "difficulty": "medium",
+    "scoring": {
+      "choice_quality": 1.0
+    },
+    "version_introduced": "v1.9",
+    "time_cost": 8,
+    "energy_cost": 6,
+    "daily_limit": 1,
+    "auto_mode_available": false,
+    "description": "Engage with special story-driven decisions that influence your legacy."
+  },
+  {
+    "id": "shop_cleaning",
+    "name": "Shop Cleaning",
+    "mechanic_type": "click_target_speed",
+    "linked_system": "prestige",
+    "difficulty": "easy",
+    "scoring": {
+      "click_accuracy": 0.5,
+      "completion_time": 0.5
+    },
+    "version_introduced": "v1.9",
+    "time_cost": 10,
+    "energy_cost": 5,
+    "daily_limit": 3,
+    "auto_mode_available": true,
+    "description": "Clean the shop floor efficiently to increase customer satisfaction."
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "id": "mat_brass",
+    "name": "Brass",
+    "tier": "early",
+    "base_value": 5,
+    "rarity": "common",
+    "compatible_styles": [
+      "vintage",
+      "daily",
+      "striking"
+    ],
+    "notes": "Tarnishes over time but gives a warm tone"
+  },
+  {
+    "id": "mat_bronze",
+    "name": "Bronze",
+    "tier": "early",
+    "base_value": 6,
+    "rarity": "common",
+    "compatible_styles": [
+      "antique"
+    ],
+    "notes": "Heavier and darker than brass; suitable for antique looks"
+  },
+  {
+    "id": "mat_silver",
+    "name": "Silver",
+    "tier": "early",
+    "base_value": 10,
+    "rarity": "common",
+    "compatible_styles": [
+      "vintage",
+      "elegant"
+    ],
+    "notes": "Popular for everyday wear, easy to polish"
+  },
+  {
+    "id": "mat_gold",
+    "name": "Gold",
+    "tier": "mid",
+    "base_value": 25,
+    "rarity": "uncommon",
+    "compatible_styles": [
+      "vintage",
+      "showy"
+    ],
+    "notes": "Symbol of wealth and tradition"
+  },
+  {
+    "id": "mat_platinum",
+    "name": "Platinum",
+    "tier": "mid",
+    "base_value": 35,
+    "rarity": "rare",
+    "compatible_styles": [
+      "minimal",
+      "showy",
+      "ceremony"
+    ],
+    "notes": "Hypoallergenic, premium metal with a modern appeal"
+  },
+  {
+    "id": "mat_whitegold",
+    "name": "White Gold",
+    "tier": "mid",
+    "base_value": 30,
+    "rarity": "rare",
+    "compatible_styles": [
+      "modern",
+      "minimal",
+      "elegant"
+    ],
+    "notes": "Premium feel, contemporary alternative to gold"
+  },
+  {
+    "id": "mat_alloy_x",
+    "name": "Alloy-X",
+    "tier": "late",
+    "base_value": 60,
+    "rarity": "epic",
+    "compatible_styles": [
+      "futuristic",
+      "striking",
+      "ceremony"
+    ],
+    "notes": "Advanced alloy only available with high-tech upgrades"
+  }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "id": "shank_flat_standard",
+        "name": "Düz Profil Halka",
+        "product_type": "Ring",
+        "description": "Dış ve iç yüzeyi düz, modern ve minimalist bir temel.",
+        "tier": 1,
+        "style_tags": ["Minimal", "Modern"],
+        "available_slots": { "main_setting": 1 }
+    },
+    {
+        "id": "shank_dshape_classic",
+        "name": "D-Profil Halka",
+        "product_type": "Ring",
+        "description": "Dışı bombeli, içi düz, geleneksel ve konforlu bir yapı.",
+        "tier": 1,
+        "style_tags": ["Vintage", "Daily"],
+        "available_slots": { "main_setting": 1 }
+    },
+    {
+        "id": "shank_knife_edge",
+        "name": "Keskin Hatlı (Knife-Edge) Halka",
+        "product_type": "Ring",
+        "description": "Ortasında keskin bir hat bulunan, dikkat çekici ve modern bir gövde.",
+        "tier": 2,
+        "style_tags": ["Striking", "Modern"],
+        "available_slots": { "main_setting": 1, "side_stones": 2 }
+    },
+    {
+        "id": "shank_filigree_ornate",
+        "name": "Telkari Oymalı Halka",
+        "product_type": "Ring",
+        "description": "Üzerinde karmaşık tel işçiliği desenleri bulunan, sanatsal bir gövde.",
+        "tier": 3,
+        "style_tags": ["Antique", "Showy"],
+        "available_slots": { "main_setting": 1 }
+    },
+    {
+        "id": "chain_cable_thin",
+        "name": "İnce Forse Zincir",
+        "product_type": "Necklace",
+        "description": "En temel ve yaygın zincir tipi, basit ve zarif.",
+        "tier": 1,
+        "style_tags": ["Minimal", "Daily"],
+        "available_slots": { "pendant": 1, "clasp": 1 }
+    },
+    {
+        "id": "chain_box_medium",
+        "name": "Orta Kalınlıkta Kutu Zincir",
+        "product_type": "Necklace",
+        "description": "Kare kesitli baklalardan oluşan, geometrik ve sağlam bir zincir.",
+        "tier": 2,
+        "style_tags": ["Modern", "Geometric"],
+        "available_slots": { "pendant": 1, "clasp": 1 }
+    },
+    {
+        "id": "base_stud_flat",
+        "name": "Düz Toplu Küpe Tabanı",
+        "product_type": "Earring",
+        "description": "Kulağa yapışık duran, en temel küpe tipi.",
+        "tier": 1,
+        "style_tags": [],
+        "available_slots": { "main_setting": 1, "backing": 1 }
+    },
+    {
+        "id": "base_hook_french",
+        "name": "Fransız Kanca Tabanı",
+        "product_type": "Earring",
+        "description": "Basit, kancalı, sallantılı küpeler için temel.",
+        "tier": 1,
+        "style_tags": [],
+        "available_slots": { "dangle_element": 1 }
+    }
+]

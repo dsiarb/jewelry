@@ -1,0 +1,84 @@
+{
+  "inventory_structure": {
+    "products": {
+      "description": "Üretilmiş veya satın alınmış hazır ürünler",
+      "fields": [
+        "product_id",
+        "type",
+        "style_tags",
+        "quality",
+        "sell_price",
+        "origin"
+      ]
+    },
+    "materials": {
+      "description": "Metaller, parçalar, zincirler gibi üretim malzemeleri",
+      "fields": [
+        "material_id",
+        "material_type",
+        "quality",
+        "amount",
+        "source"
+      ]
+    },
+    "cut_gems": {
+      "description": "Kesilmiş taşlar (tekli veya çoklu kesim sonucu elde edilmiş)",
+      "fields": [
+        "gem_id",
+        "shape",
+        "size",
+        "clarity",
+        "origin"
+      ]
+    },
+    "raw_gems": {
+      "description": "Açık artırmadan veya tedarikçiden alınmış kesilmemiş ham taşlar",
+      "fields": [
+        "raw_gem_id",
+        "mass",
+        "potential_yield",
+        "auction_id",
+        "rarity"
+      ]
+    },
+    "collection_items": {
+      "description": "Koleksiyon için ayrılmış, özel tasarım ve kategoriye sahip ürünler",
+      "fields": [
+        "collection_id",
+        "product_ref",
+        "collection_name",
+        "style_weight"
+      ]
+    },
+    "design_blueprints": {
+      "description": "Oyuncunun açtığı veya oluşturduğu özel tasarımlar",
+      "fields": [
+        "design_id",
+        "style_tags",
+        "component_slots",
+        "complexity",
+        "created_by_player"
+      ]
+    }
+  },
+  "security": {
+    "vault": {
+      "description": "Kasa içinde saklanan değerli ürün ve taşlar",
+      "capacity": 10,
+      "items": []
+    },
+    "security_level": {
+      "description": "Dükkanın genel güvenlik seviyesi (1-4)",
+      "current_level": 2,
+      "upgrade_costs": {
+        "3": 5000,
+        "4": 10000
+      }
+    },
+    "insurance": {
+      "is_active": true,
+      "coverage_percent": 75,
+      "monthly_fee": 1200
+    }
+  }
+}

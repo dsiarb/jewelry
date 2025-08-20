@@ -1,0 +1,42 @@
+[
+    {
+        "id": "setting_prong_4",
+        "name": "4-Tırnaklı Yuva",
+        "setting_type": "Prong",
+        "description": "Taşı dört köşesinden tutan, en yaygın ve taşı en çok gösteren yuva.",
+        "tier": 1,
+        "style_tags": ["vintage"]
+    },
+    {
+        "id": "setting_prong_6",
+        "name": "6-Tırnaklı Yuva",
+        "setting_type": "Prong",
+        "description": "Taşı daha güvenli tutan ve daha klasik bir görünüm veren yuva.",
+        "tier": 2,
+        "style_tags": ["vintage", "elegant"]
+    },
+    {
+        "id": "setting_bezel_full",
+        "name": "Tam Çerçeve (Sıvama) Yuva",
+        "setting_type": "Bezel",
+        "description": "Taşın etrafını tamamen metal bir çerçeveyle saran, en güvenli ve modern yuva.",
+        "tier": 2,
+        "style_tags": ["modern", "minimal"]
+    },
+    {
+        "id": "setting_pave",
+        "name": "Pave Yuva",
+        "setting_type": "Pave",
+        "description": "Yüzeyi tamamen küçük taşlarla kaplayarak 'kaldırım taşı' gibi parlak bir doku yaratma tekniği.",
+        "tier": 3,
+        "style_tags": ["showy"]
+    },
+    {
+        "id": "setting_channel",
+        "name": "Kanal Yuva",
+        "setting_type": "Channel",
+        "description": "Küçük taşları, metalin içinde açılan bir kanal boyunca yan yana dizme tekniği.",
+        "tier": 3,
+        "style_tags": ["modern", "geometric"]
+    }
+]
