@@ -1,0 +1,29 @@
+{
+    "style_affinity": {
+        "form": [
+            "Organic",
+            "Balanced",
+            "Geometric",
+            "Asymmetric"
+        ],
+        "style_intensity": [
+            "Minimal",
+            "Simple",
+            "Balanced",
+            "Striking",
+            "Showy"
+        ],
+        "style_era": [
+            "Antique",
+            "Vintage",
+            "Modern",
+            "Trendy"
+        ],
+        "material_vibe": [
+            "Raw",
+            "Crafted",
+            "Polished",
+            "Luxe"
+        ]
+    }
+}

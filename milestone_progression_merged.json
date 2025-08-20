@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "First Step: Shop Foundation",
+    "description": "Player selects initial shop layout, unlocks first display and transaction area.",
+    "unlocks": [
+      "product_purchase",
+      "basic_inventory",
+      "display_setup"
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": 2,
+    "title": "Getting Started with Sales",
+    "description": "Player completes their first sale and begins simple customer interactions.",
+    "unlocks": [
+      "customer_requests",
+      "basic_pricing",
+      "sales_UI"
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": 3,
+    "title": "Decor & Expansion",
+    "description": "Unlocks decorative placement, grid system, and increases shop size.",
+    "unlocks": [
+      "grid_expansion",
+      "decor_items",
+      "shop_customization"
+    ],
+    "version": "v1.1"
+  },
+  {
+    "id": 4,
+    "title": "Material Management",
+    "description": "Unlocks the ability to manage and choose different metals and gem types.",
+    "unlocks": [
+      "material_types",
+      "gem_types",
+      "material_quality_UI"
+    ],
+    "version": "v1.2"
+  },
+  {
+    "id": 5,
+    "title": "Hiring Your First Assistant",
+    "description": "Unlocks staff hiring system, allowing task delegation.",
+    "unlocks": [
+      "employee_hiring",
+      "task_delegation"
+    ],
+    "version": "v1.3"
+  },
+  {
+    "id": 6,
+    "title": "Photo Area Setup",
+    "description": "Player unlocks photography zone to enhance marketing visuals.",
+    "unlocks": [
+      "photo_setup",
+      "photo_UI",
+      "marketing_material"
+    ],
+    "version": "v1.4"
+  },
+  {
+    "id": 7,
+    "title": "Advanced Customer Preferences",
+    "description": "Complex customer demands appear, requiring better match and price analysis.",
+    "unlocks": [
+      "style_scales",
+      "customer_dialogue_variation"
+    ],
+    "version": "v1.5"
+  },
+  {
+    "id": 8,
+    "title": "Gem Cutting Mechanic",
+    "description": "Unlocks gem shaping and polishing station.",
+    "unlocks": [
+      "gem_cutting_station",
+      "gem_cutting_UI"
+    ],
+    "version": "v1.6"
+  },
+  {
+    "id": 9,
+    "title": "Basic Design Mechanic",
+    "description": "Unlocks early design interface with limited slot selection.",
+    "unlocks": [
+      "design_templates",
+      "limited_design_UI"
+    ],
+    "version": "v1.7"
+  },
+  {
+    "id": 10,
+    "title": "Special Customers Appear",
+    "description": "Triggers narrative special customers with story-based orders.",
+    "unlocks": [
+      "special_customers",
+      "narrative_dialogues",
+      "unique_rewards"
+    ],
+    "version": "v1.8"
+  },
+  {
+    "id": 11,
+    "title": "Custom Orders and Events",
+    "description": "Unlocks timed special events and custom-designed jewelry demands.",
+    "unlocks": [
+      "custom_orders",
+      "event_order_templates"
+    ],
+    "version": "v1.9"
+  },
+  {
+    "id": 12,
+    "title": "Full Design System",
+    "description": "Unlocks complete design interface and player-crafted collections.",
+    "unlocks": [
+      "advanced_design_UI",
+      "style_validation",
+      "collection_feature"
+    ],
+    "version": "v2.0"
+  },
+  {
+    "id": "milestone_decor_supplier_unlocked",
+    "name": "Dekorasyon Tedarikçisi Açıldı",
+    "version": "v1.7",
+    "unlocks": [
+      "decor_store_supplier"
+    ]
+  }
+]

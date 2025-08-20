@@ -1,0 +1,68 @@
+[
+  {
+    "event_id": "spring_blossom_festival",
+    "tasks": [
+      {
+        "id": "sb1",
+        "title": "Design a Floral Pendant",
+        "description": "Create a pendant using Floral and Elegant styles.",
+        "requirements": {
+          "product_type": "pendant",
+          "styles": [
+            "Floral",
+            "Elegant"
+          ]
+        },
+        "rewards": {
+          "currency": 150,
+          "reputation": 3
+        }
+      },
+      {
+        "id": "sb2",
+        "title": "Sell Two Floral Pieces",
+        "description": "Successfully sell two items matching the Spring Blossom theme.",
+        "requirements": {
+          "sales_count": 2,
+          "style_tag": "Floral"
+        },
+        "rewards": {
+          "currency": 200,
+          "reputation": 4
+        }
+      }
+    ]
+  },
+  {
+    "event_id": "summer_luxury_week",
+    "tasks": [
+      {
+        "id": "sl1",
+        "title": "Sell a Luxury Ring",
+        "description": "Create and sell a luxury-themed ring.",
+        "requirements": {
+          "product_type": "ring",
+          "styles": [
+            "Luxury"
+          ]
+        },
+        "rewards": {
+          "currency": 300,
+          "reputation": 5
+        }
+      },
+      {
+        "id": "sl2",
+        "title": "Sell Items Worth 1500",
+        "description": "Accumulate sales of 1500 currency during the event.",
+        "requirements": {
+          "sales_value": 1500
+        },
+        "rewards": {
+          "currency": 250,
+          "reputation": 4
+        }
+      }
+    ]
+  }
+]

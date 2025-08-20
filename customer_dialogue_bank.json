@@ -1,0 +1,74 @@
+{
+  "style_intensity": {
+    "minimal": [
+      "I prefer simplicity. Nothing too flashy, please.",
+      "I’m drawn to clean, elegant lines."
+    ],
+    "balanced": [
+      "Not too much, not too little. It should feel just right.",
+      "I want harmony. Nothing too extreme, please."
+    ],
+    "striking": [
+      "Make a bold impression. Something memorable!",
+      "I want a design that grabs attention, but with style."
+    ],
+    "showy": [
+      "If it doesn't shine from across the room, I’m not interested.",
+      "Go all out. I want something that dazzles the eye."
+    ]
+  },
+  "era_style": {
+    "antique": [
+      "Give me something that feels ancient and rich.",
+      "I want it to look like it came from a forgotten empire."
+    ],
+    "vintage": [
+      "I adore retro vibes, something with a story.",
+      "Vintage is always in style, don't you think?"
+    ],
+    "modern": [
+      "I want something sleek and current.",
+      "I’m into modern shapes and clean finishes."
+    ],
+    "trendy": [
+      "What’s hot right now? I want the latest trend!",
+      "Make sure it’s something people will notice today."
+    ]
+  },
+  "customer_mood": {
+    "friendly": [
+      "Thanks for your help! I appreciate it.",
+      "You're really good at this!"
+    ],
+    "assertive": [
+      "I expect nothing but the best.",
+      "Surprise me, but don’t disappoint me."
+    ],
+    "dramatic": [
+      "I want this piece to scream emotion!",
+      "This must be unforgettable!"
+    ],
+    "reserved": [
+      "I’m not easy to impress.",
+      "Keep it professional, please."
+    ]
+  },
+  "purchase_reaction": {
+    "perfect_match": [
+      "This is exactly what I had in mind!",
+      "Wow, you truly understand my taste."
+    ],
+    "good_match": [
+      "Pretty close! I like it.",
+      "Nice work. This suits me well enough."
+    ],
+    "average_match": [
+      "Hmm, I guess it’ll do.",
+      "Not quite what I imagined, but okay."
+    ],
+    "bad_match": [
+      "This isn’t what I wanted at all.",
+      "Did you even listen to me?"
+    ]
+  }
+}

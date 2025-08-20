@@ -1,0 +1,34 @@
+[
+  {
+    "id": "challenge_artin_soldering_1",
+    "name": "Ateşle Dans",
+    "description": "Lehimleme mini oyununda 3 kez üst üste 'Harika' veya daha iyi bir sonuç alarak bir ürün üret.",
+    "trigger_condition": "context.get_skill_level('crafting_skill') >= 15",
+    "completion_condition": "context.get_minigame_streak('soldering', 'Great') >= 3",
+    "reward": { "xp_crafting_skill": 200, "reputation": 5 }
+  },
+  {
+    "id": "challenge_artin_antique_1",
+    "name": "Geçmişin Yankıları",
+    "description": "'antique' (antik) stil etiketine sahip 5 farklı ürün satarak bu işi anladığını göster.",
+    "trigger_condition": "context.get_player_level() >= 10",
+    "completion_condition": "context.get_style_sales_count('antique') >= 5",
+    "reward": { "money": 500, "xp_design_sense": 150 }
+  },
+  {
+    "id": "challenge_artin_bezel_1",
+    "name": "Güvenli Liman",
+    "description": "'setting_bezel_full' (Sıvama Yuva) komponentini kullanarak 3 farklı mücevher üret.",
+    "trigger_condition": "context.has_unlocked_research('unlock_tier2_techniques')",
+    "completion_condition": "context.get_component_usage_count('setting_bezel_full') >= 3",
+    "reward": { "xp": 100, "unlock": "new_bezel_design_template" }
+  },
+  {
+    "id": "challenge_artin_gold_1",
+    "name": "Altının Ağırlığı",
+    "description": "Sadece 'Gold' (Altın) materyali kullanarak en az 'Harika' kalitede bir ürün yap.",
+    "trigger_condition": "context.has_unlocked_supplier('supplier_materials_basic')",
+    "completion_condition": "context.get_material_craft_count('mat_gold', 'Great') >= 1",
+    "reward": { "money": 1000, "reputation": 10 }
+  }
+]

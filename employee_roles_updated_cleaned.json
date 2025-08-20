@@ -1,0 +1,57 @@
+[
+    {
+        "id": "designer",
+        "name": "Tasarımcı",
+        "description": "Yeni ürün tasarımları yapar.",
+        "machine_skills": [],
+        "manual_tasks": [
+            "design"
+        ]
+    },
+    {
+        "id": "stone_cutter",
+        "name": "Taş Kesici",
+        "description": "Değerli taşları keser.",
+        "machine_skills": [
+            "gem_cutter_basic"
+        ],
+        "manual_tasks": [
+            "cutting"
+        ]
+    },
+    {
+        "id": "finisher",
+        "name": "Son İşlem Uzmanı",
+        "description": "Taşları zımparalar ve parlatır.",
+        "machine_skills": [
+            "nano_polisher"
+        ],
+        "manual_tasks": [
+            "polishing"
+        ]
+    },
+    {
+        "id": "assembler",
+        "name": "Montajcı",
+        "description": "Mücevher parçalarını birleştirir.",
+        "machine_skills": [
+            "micro_assembly_unit_v1"
+        ],
+        "manual_tasks": [
+            "assembly"
+        ]
+    },
+    {
+        "id": "machine_operator",
+        "name": "Makine Operatörü",
+        "description": "Tüm üretim makinelerini kullanabilir.",
+        "machine_skills": [
+            "micro_assembly_unit_v1",
+            "gem_cutter_basic",
+            "micro_assembly_unit_v2",
+            "nano_polisher",
+            "laser_cutter_v1"
+        ],
+        "manual_tasks": []
+    }
+]

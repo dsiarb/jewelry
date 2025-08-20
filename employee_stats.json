@@ -1,0 +1,95 @@
+{
+  "stat_definitions": [
+    {
+      "id": "communication",
+      "label": "İletişim Gücü",
+      "description": "Müşteri memnuniyeti, ikna başarısı ve özel müşteri ilişkilerinde etkilidir. Yeterli seviyeye ulaştığında, müşterinin sabrını gösteren 'Patience Bar' arayüzünü görünür kılar.",
+      "affects": [
+        "customer_satisfaction",
+        "dialogue_success",
+        "reputation_gain",
+        "customer_patience_bonus",
+        "ui_patience_bar_visibility"
+      ]
+    },
+    {
+      "id": "commercial_intelligence",
+      "label": "Ticari Zeka",
+      "description": "Fiyatlandırma, pazarlık ve tedarikçi ilişkilerinde daha iyi kararlar almayı sağlar.",
+      "affects": [
+        "price_suggestion_accuracy",
+        "bargain_success_chance",
+        "supplier_discounts"
+      ]
+    },
+    {
+      "id": "design_sense",
+      "label": "Tasarım Gözü",
+      "description": "Müşterinin stilini anlama ve buna uygun ürünler tasarlama/önerme yeteneği.",
+      "affects": [
+        "style_match_score_bonus",
+        "unlock_new_design_templates",
+        "visual_clue_accuracy"
+      ]
+    },
+    {
+      "id": "crafting_skill",
+      "label": "Üretim Yeteneği",
+      "description": "Atölyedeki üretim süreçlerinin kalitesini ve hızını artırır.",
+      "affects": [
+        "crafting_quality_bonus",
+        "crafting_speed_modifier",
+        "material_saving_chance"
+      ]
+    },
+    {
+      "id": "gem_cutting_precision",
+      "label": "Taş Kesim Hassasiyeti",
+      "description": "Taş kesme mini oyunlarında daha iyi sonuçlar almayı ve taşın değerini artırmayı sağlar.",
+      "affects": [
+        "gem_cutting_success_chance",
+        "gem_carat_yield_bonus",
+        "special_cut_unlock"
+      ]
+    }
+  ],
+  "scaling": {
+    "max_level": 100,
+    "xp_per_level_multiplier": 1.2,
+    "base_xp_cost": 100
+  },
+  "stat_application_rules": {
+    "high_stat_bonus": {
+      "threshold": 75,
+      "bonus_multiplier": 1.1
+    },
+    "low_stat_penalty": {
+      "threshold": 25,
+      "penalty_multiplier": 0.9
+    },
+    "patience_rules": {
+      "base_patience_bonus_per_comm_point": 1.5
+    },
+    "ui_visibility_rules": {
+      "patience_bar_visibility_threshold": 50
+    }
+  },
+  "stat_by_role": {
+    "store_owner": {
+      "primary_stats": ["communication", "commercial_intelligence"],
+      "secondary_stats": ["design_sense"]
+    },
+    "artisan": {
+      "primary_stats": ["crafting_skill", "design_sense"],
+      "secondary_stats": ["gem_cutting_precision"]
+    },
+    "gem_cutter": {
+      "primary_stats": ["gem_cutting_precision"],
+      "secondary_stats": ["crafting_skill"]
+    },
+    "sales_specialist": {
+      "primary_stats": ["communication"],
+      "secondary_stats": ["commercial_intelligence", "design_sense"]
+    }
+  }
+}

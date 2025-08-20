@@ -1,0 +1,90 @@
+[
+  {
+    "id": "blueprint_band",
+    "name": "Alyans",
+    "description": "Sadece bir halkadan oluşan, üzerine yuva eklenmeyen sade bir yüzük.",
+    "unlock_condition": "STARTING_ITEM",
+    "base_difficulty": 2,
+    "base_price_multiplier": 0.8,
+    "required_component_slots": [
+      {
+        "slot_id": "shank",
+        "slot_name": "Halka",
+        "description": "Alyansın temel gövdesi.",
+        "component_category": "RingShank"
+      }
+    ]
+  },
+  {
+    "id": "blueprint_ring",
+    "name": "Yüzük",
+    "description": "Üzerine taş veya süsleme eklemek için bir yuvaya sahip, çok yönlü bir takı.",
+    "unlock_condition": "STARTING_ITEM",
+    "base_difficulty": 3,
+    "base_price_multiplier": 1.0,
+    "required_component_slots": [
+      {
+        "slot_id": "shank",
+        "slot_name": "Halka",
+        "description": "Yüzüğün temel gövdesi.",
+        "component_category": "RingShank"
+      },
+      {
+        "slot_id": "main_setting",
+        "slot_name": "Ana Yuva",
+        "description": "Yüzüğün ana taşını veya süslemesini tutar.",
+        "component_category": "Setting"
+      }
+    ]
+  },
+  {
+    "id": "blueprint_necklace",
+    "name": "Kolye",
+    "description": "Boyuna takılan dekoratif bir takı.",
+    "unlock_condition": "research_id:unlock_necklaces",
+    "base_difficulty": 4,
+    "base_price_multiplier": 1.5,
+    "required_component_slots": [
+      {
+        "slot_id": "chain",
+        "slot_name": "Zincir",
+        "description": "Kolyenin ana zinciri.",
+        "component_category": "NecklaceChain"
+      },
+      {
+        "slot_id": "clasp",
+        "slot_name": "Klips",
+        "description": "Kolyeyi boyunda sabitleyen parça.",
+        "component_category": "Clasp"
+      }
+    ]
+  },
+  {
+    "id": "blueprint_earrings",
+    "name": "Küpe",
+    "description": "Kulağa takılan bir çift aksesuar.",
+    "unlock_condition": "research_id:unlock_earrings",
+    "base_difficulty": 4,
+    "base_price_multiplier": 1.2,
+    "required_component_slots": [
+       {
+        "slot_id": "base",
+        "slot_name": "Küpe Tabanı",
+        "description": "Küpenin kulağa takılan ana parçası (kanca, toplu vb.).",
+        "component_category": "EarringBase"
+      },
+      {
+        "slot_id": "main_setting",
+        "slot_name": "Ana Süsleme",
+        "description": "Küpenin ana süsünü veya taşını tutar.",
+        "component_category": "Setting"
+      },
+      {
+        "slot_id": "backing",
+        "slot_name": "Kilit",
+        "description": "Küpenin düşmesini engelleyen arka parça.",
+        "component_category": "Backing"
+      }
+    ]
+  }
+]

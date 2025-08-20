@@ -1,0 +1,93 @@
+[
+  {
+    "id": "customer_easy_001",
+    "name": "Lina",
+    "description": "A young, aspiring architect with a keen eye for clean lines and modern aesthetics.",
+    "archetype": "The Minimalist",
+    "base_patience": 120,
+    "is_story_character": false,
+    "style_affinity": {
+      "form": { "modern": 80, "geometric": 70 },
+      "style_intensity": { "minimal": 90, "balanced": 60 },
+      "era_style": { "modern": 95, "trendy": 70 },
+      "usage_purpose": { "daily": 85, "elegant": 50 },
+      "stone_emphasis": { "light": 90 }
+    },
+    "dialogue_clues": [
+      "I'm looking for something modern and simple.",
+      "I like clean shapes that aren’t too flashy."
+    ],
+    "visual_clues": {
+      "fashion_style": "modern",
+      "accessory_style": "minimal",
+      "expression": "calm and friendly"
+    },
+    "purchase_behavior": {
+      "price_sensitivity": 0.4,
+      "quality_focus": 0.7,
+      "patience_modifiers": { "fast_service_bonus": 5 }
+    },
+    "order_history": []
+  },
+  {
+    "id": "customer_medium_001",
+    "name": "Marcello",
+    "description": "A charismatic historian preparing for a grand ceremonial event.",
+    "archetype": "The Traditionalist",
+    "base_patience": 100,
+    "is_story_character": false,
+    "style_affinity": {
+      "form": { "symmetrical": 85 },
+      "style_intensity": { "balanced": 80, "elegant": 75 },
+      "era_style": { "vintage": 90, "antique": 70 },
+      "usage_purpose": { "ceremony": 95, "elegant": 80 },
+      "stone_emphasis": { "balanced": 80 }
+    },
+    "dialogue_clues": [
+      "It’s for a ceremonial event, and I want something with vintage charm.",
+      "I’d like a harmonious design that’s elegant but not overwhelming."
+    ],
+    "visual_clues": {
+      "fashion_style": "vintage",
+      "accessory_style": "elegant",
+      "expression": "confident and composed"
+    },
+    "purchase_behavior": {
+      "price_sensitivity": 0.6,
+      "quality_focus": 0.8,
+      "patience_modifiers": { "high_quality_bonus": 10 }
+    },
+    "order_history": []
+  },
+  {
+    "id": "customer_hard_001",
+    "name": "Zahara",
+    "description": "A dramatic and wealthy collector of rare and antique jewelry.",
+    "archetype": "The Collector",
+    "base_patience": 85,
+    "is_story_character": true,
+    "story_character_id": "npc_patron_zahara",
+    "style_affinity": {
+      "form": { "organic": 70, "asymmetrical": 60 },
+      "style_intensity": { "showy": 95, "striking": 85 },
+      "era_style": { "antique": 100 },
+      "usage_purpose": { "ceremony": 80, "conceptual": 70 },
+      "stone_emphasis": { "dominant": 90 }
+    },
+    "dialogue_clues": [
+      "I’m after something bold, antique, and full of character.",
+      "Don’t hold back on the sparkle—I love dominant stones!"
+    ],
+    "visual_clues": {
+      "fashion_style": "antique",
+      "accessory_style": "flashy",
+      "expression": "intense and dramatic"
+    },
+    "purchase_behavior": {
+      "price_sensitivity": 0.8,
+      "quality_focus": 1.0,
+      "patience_modifiers": { "low_quality_penalty": -15 }
+    },
+    "order_history": []
+  }
+]
